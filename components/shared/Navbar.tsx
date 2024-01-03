@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -71,13 +71,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link 
-        href="/"
-        className='btn'>WhatsApp Us
+        <Link href="/" className="btn glass btn-success text-white">
+          +91-7510097395
         </Link>
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

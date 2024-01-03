@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Cards from "@/components/Cards";
 import GasfillingCharges from "@/components/GasfillingCharges";
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
@@ -16,6 +17,7 @@ export default function Home() {
       Banner
       Footer */}
       <h1>Namrata Enterprises</h1>
+      <Cards/>
       <Banner />
       <GasfillingCharges/>
       <Footer />
